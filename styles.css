@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #373434;
-    color: rgb(255, 255, 255);
+    color: rgb(136, 49, 49);
     padding: 15px 30px;
     position: sticky;
     top: 0;
@@ -23,8 +23,9 @@ header {
 }
 .logo-button {
     font-size: 1.8em;
+    font-family: 'Times New Roman', serif;
     font-weight: bold;
-    color: white;
+    color: rgb(221, 210, 175);
     text-decoration: none;
     background-color: #373534;
     padding: 10px 15px;
