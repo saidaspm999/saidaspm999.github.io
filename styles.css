@@ -614,8 +614,8 @@ footer {
 }
 #home {
     position: relative;
-    height: 100vh; 
-    color: #fff; 
+    height: 60vh; 
+    color: #f7f1f1; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -644,13 +644,13 @@ footer {
         background-image: url('sliding9.jpg');
     }
     33% {
-        background-image: url('sliding7.jpg');
+        background-image: url('sliding20.jpg');
     }
     66% {
         background-image: url('sliding10.webp');
     }
     100% {
-        background-image: url('sliding4.webp'); 
+        background-image: url('sliding7.jpg'); 
     }
   }
  
@@ -779,87 +779,3 @@ header a {
       grid-template-columns: 1fr;
     }
   }
-  /* Sidebar Filter Styling */
-.filter-sidebar {
-    position: fixed;
-    top: 100px;
-    right: 20px;
-    width: 280px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .filter-sidebar .filter-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  h2 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 15px;
-  }
-  
-  .filter-category {
-    margin-bottom: 20px;
-  }
-  
-  .filter-category h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .filter-category select,
-  .filter-category input {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    transition: border 0.3s ease;
-  }
-  
-  .filter-category input[type="range"] {
-    width: 100%;
-  }
-  
-  #price-value {
-    font-weight: bold;
-    font-size: 1.1em;
-  }
-  
-  button.apply-filters {
-    padding: 12px 20px;
-    background-color: #ff6347;
-    color: white;
-    font-size: 1.1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button.apply-filters:hover {
-    background-color: #e5533e;
-  }
-  
-  @media (max-width: 768px) {
-    .filter-sidebar {
-      position: relative;
-      width: 100%;
-      top: 0;
-      right: 0;
-      box-shadow: none;
-    }
-    .filter-sidebar .filter-container {
-      gap: 15px;
-    }
-  }
-  

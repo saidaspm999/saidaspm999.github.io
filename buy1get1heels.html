@@ -3,40 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buy 1 Get 1 Free - Heels</title>
+    <title>Heels - Lace Lane</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Buy 1 Get 1 Free - Heels</h1>
-        <a href="cart.html">Cart (0 items)</a>
-    </header>
+ <!-- Product Section for Elegant Heels -->
+ <section class="product-details">
+    <div class="product-image">
+        <img src="michealkors.jpg" alt="Elegant Heels - Brand A">
+    </div>
+    <div class="product-info">
+        <h1>MicheaL Kors Heels</h1>
+        <p>Step up your style game with these elegant heels. Buy 1 Get 1 Free – Perfect for any special occasion.</p>
+        <p><strong>Price:</strong> $100.00 each. <strong>Buy 1, Get 1 Free!</strong></p> <!-- Updated for promotion -->
+        <form action="buynow.html" method="GET">
+            <label for="size1">Select Size:</label>
+            <select id="size1" name="size">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+            <br>
+            <label for="color1">Select Color:</label>
+            <select id="color1" name="color">
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="nude">Nude</option>
+                <option value="silver">Silver</option>
+            </select>
+            <br>
+            <label for="quantity1">Quantity:</label>
+            <input type="number" id="quantity1" name="quantity" min="1" value="1">
+            <br>
+            <button type="submit" class="button-primary">Buy Now</button>
+        </form>
+    </div>
+</section>
 
-    <section class="product-details">
-        <img src="buy1get1.jpeg" alt="Black Heels" class="product-image">
-        <div class="details">
-            <h2>Elegant Black Heels</h2>
-            <p><strong>Price:</strong> $80 (Buy 1 Get 1 Free)</p>
-            <p><strong>Sizes:</strong> 5, 6, 7, 8, 9, 10</p>
-            <p><strong>Description:</strong> Step into elegance with our premium black heels, perfect for any occasion.</p>
+<!-- Product Section for Brand B Heels -->
+<section class="product-details">
+    <div class="product-image">
+        <img src="sam edelman.jpg" alt="Elegant Heels - Brand B">
+    </div>
+    <div class="product-info">
+        <h1>Sam Edelmen Heels</h1>
+        <p>Classic design heels for those who love sophistication and elegance in every step. Buy 1 Get 1 Free!</p>
+        <p><strong>Price:</strong> $130.00 each. <strong>Buy 1, Get 1 Free!</strong></p> <!-- Updated for promotion -->
+        <form action="buynow.html" method="GET">
+            <label for="size2">Select Size:</label>
+            <select id="size2" name="size">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br>
+            <label for="color2">Select Color:</label>
+            <select id="color2" name="color">
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="gold">Gold</option>
+                <option value="blue">Blue</option>
+            </select>
+            <br>
+            <label for="quantity2">Quantity:</label>
+            <input type="number" id="quantity2" name="quantity" min="1" value="1">
+            <br>
+            <button type="submit" class="button-primary">Buy Now</button>
+        </form>
+    </div>
+</section>
 
-            <form action="buynow.html" method="GET">
-                <label for="size">Select Size:</label>
-                <select id="size" name="size">
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                </select>
-                <br>
-                <label for="quantity">Quantity:</label>
-                <input type="number" id="quantity" name="quantity" min="1" value="1">
-                <br>
-                <button type="submit" class="button-primary">Buy Now</button>
-            </form>
-        </div>
-    </section>
+<!-- Product Section for Brand C Heels -->
+<section class="product-details">
+    <div class="product-image">
+        <img src="steve madden.jpg" alt="Elegant Heels - Brand C">
+    </div>
+    <div class="product-info">
+        <h1>Steve Madden Heels</h1>
+        <p>Striking heels with a unique design, made for women who want to make a statement. Buy 1 Get 1 Free!</p>
+        <p><strong>Price:</strong> $150.00 each. <strong>Buy 1, Get 1 Free!</strong></p> <!-- Updated for promotion -->
+        <form action="buynow.html" method="GET">
+            <label for="size3">Select Size:</label>
+            <select id="size3" name="size">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br>
+            <label for="color3">Select Color:</label>
+            <select id="color3" name="color">
+                <option value="black">Black</option>
+                <option value="pink">Pink</option>
+                <option value="red">Red</option>
+                <option value="purple">Purple</option>
+            </select>
+            <br>
+            <label for="quantity3">Quantity:</label>
+            <input type="number" id="quantity3" name="quantity" min="1" value="1">
+            <br>
+            <button type="submit" class="button-primary">Buy Now</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Lace Lane. All rights reserved.</p>
+</footer>
 </body>
 </html>
